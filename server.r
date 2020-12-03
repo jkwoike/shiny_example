@@ -6,7 +6,7 @@ shinyServer(function(input, output) {
       probability = TRUE,
       breaks = as.numeric(input$n_breaks),
       xlab = "Duration (minutes)",
-      main = "Geyser eruption duration")
+      main = "Geyser eruption duration CUSTOMIZED")
 
     if (input$individual_obs) {
       rug(faithful$eruptions)
